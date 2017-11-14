@@ -1,1 +1,3 @@
-# website
+# bluecollarcoding.ca
+
+Assets for the site

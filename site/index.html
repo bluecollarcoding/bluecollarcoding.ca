@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Blue Collar Coding: Oil changes for your software">
+    <meta name="description" content="Blue Collar Coding provides repository maintenance services for software organizations, doing the work your engineers shouldn't.">
+    <meta name="robots" content="all">
+    
+    <title>Home | BCC</title>
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <script src="js/vendor/modernizr.js"></script>
+    
+    <script>
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   
+     ga('create', 'UA-48302191-4', 'bluecollarcoding.ca');
+     ga('send', 'pageview');
+   
+   </script>
+  </head>
+  
+  <body>
+  
+  <div class="contain-to-grid fixed columns">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+	<li class="name">
+	  <a href="#intro" class="internalScroll"><img src="favicon.ico" width="20%" alt="The BCC logo"/></a>
+	</li>
+	 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+    
+      <section class="top-bar-section">
+	<!-- Right Nav Section -->
+	<ul class="right">
+	  <li class="active"><a href="#logo" class="internalScroll">Blue Collar Coding</a></li>
+	  <li class="active"><a href="#footer" class="internalScroll">Contact</a></li>
+	</ul>
+    </nav>
+  </div>
+  
+  <!----------------------------------------------------------------------------------------------------------------->
+  
+  <div class="row" id="intro">
+    <div id="background">
+      <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
+          <h2>Software is a car that's always driving.<br>Bring it to the mechanic for an oil change.</h2>
+
+	<p>
+    <strong>&bull; </strong> Repository Maintenance <br>
+    <strong>&bull; </strong> Smoke Test + Overhaul Documentation <br>
+    <strong>&bull; </strong> Linting with Continuous Integration
+	</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------------------------------------------------------------------------------------------------------------->
+  
+
+  <div class="row content" id="footer">
+    <div class="small-centered small-12 medium-8 large-centered large-6 columns small-text-right">
+      <div id="content">
+	<p>Zach Ramsay
+	  <a href="https://www.linkedin.com/in/zach-ramsay-7a473a94/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn Logo"/></a>
+	  <a href="https://twitter.com/cerebralbosons" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"/></a>
+	</p>
+    <p id="jordan" class="small-text-center"><a href="mailto:zach@bluecollarcoding.ca">zach@bluecollarcoding.ca</a></p>
+    <p id="jordan" class="small-text-center">Guelph, On, Canada</p>
+	<p id="jordan" class="small-text-center">Blue Collar Coding &copy 2017 | site by <a href="http://www.jordanbibla.com" target="_blank">Jordan Bibla</a></p>
+      </div>
+    </div>
+  </div>
+  
+<!---------------javscript ya'll--------------------------------->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
+    
+    <script>
+      $(document).foundation();
+    </script>
+
+    <script>
+      $(document).ready(function(){
+      
+	//alert("hello")
+	  
+	  $('a.internalScroll').bind('click',function(event){
+	    var $anchor = $(this);
+   
+	  $('html, body').stop().animate({
+	      scrollTop: $($anchor.attr('href')).offset().top
+	  }, 700);
+	});
+      });
+    </script>
+    
+  </body>
+</html>

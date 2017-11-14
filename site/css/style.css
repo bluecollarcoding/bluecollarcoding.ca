@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+
+body {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 1500;
+      letter-spacing: 1.1px;
+      line-height: 2;
+}
+
+      body p {
+            line-height: 150%;
+      }
+
+h3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 1500;
+}
+
+nav {
+      opacity: 0.8;
+}
+
+      nav img {
+            padding-top: 10px;
+      }
+
+#intro {
+      background: url("../img/programming.jpeg")fixed center center no-repeat;
+      padding: 4rem 0 10rem 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom: solid #184ee9 0.5rem;
+}
+     
+      #background h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.6em;
+            font-weight: 400;
+            color: #000000;
+            background-color: rgba(255,240,0,1);
+            padding: 2rem;
+            border-radius: 5px;
+            margin-bottom: 3rem;
+      }
+      
+      #background p {
+            font-size: 2.6em;
+            font-weight: 200;
+            color: #000000;
+            background-color: rgba(24,78,224,1);
+            padding: 3rem;
+            border-radius: 5px;
+      }
+      
+      #background span {
+            font-weight: 700;
+      }
+
+      #logo img {
+                  margin: 4.5rem 0 1.5rem 0;
+                  max-width: 18%;
+            }
+
+#process {
+      padding: 2rem 0 2.5rem 0;
+      border-bottom: solid #184ee9 0.5rem;
+}
+
+      #process p {
+            padding: 1.5rem;
+      }
+      
+      #process h3 {
+            padding: 1rem;
+            margin: 0 0 2rem 0;
+            background: #EEE;
+            border-radius: 5px;
+      }
+
+.content {
+      font-weight: 1500;
+      border-top: solid #FFF000 0.5rem;
+      border-bottom: solid #184ee9 0.5rem;
+}
+
+      .content p {
+            font-weight: 1500;
+            padding: 0.5rem;
+      }
+
+.bubble {
+      border-radius: 5px;
+      background: #AAA;
+      border: 1px solid red;
+}
+
+#footer {
+      background: url("../img/programming.jpeg")fixed center center no-repeat;
+      padding: 2rem 0 3rem 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color: #FFF000;
+      border-bottom: none;
+}
+
+      #footer p{
+            font-weight: 1500;
+            color: black;
+            background-color:rgba(245,245,245,1.0);
+            padding: 1rem;
+            border-radius: 5px;
+      }
+      
+      #footer a {
+            font-weight: 1500;
+      }
+      
+      #footer a:hover {
+            text-decoration: underline;
+      }
+      
+      #footer img {
+            background-color: rgba(255,240,0,1.0);
+            border-radius: 5px;
+            padding: 1rem;
+            margin-left: 1rem;
+      }
+      
+      #footer #jordan {
+            font-size: 24px;
+            font-weight: 200;
+      }
+      
+
+@media only screen
+and (max-width : 640px) {
+
+      background span {
+            font-weight: 200;
+      }
+
+      img {
+            max-width: 80%;
+      }
+      #intro {
+            padding: 2rem 0 2rem 0;
+      }
+      
+            #intro img {
+                  display: none;
+            }
+      
+      #background p {
+            font-size: 2rem;
+      }
+      
+      #logo img {
+            min-width: 55%;
+      }
+      
+      .content {
+            padding: 1rem;
+      }
+      
+      #footer {
+            padding: 1rem;
+      }
+      
+            #footer p{
+                  padding: 1rem;
+                  font-size: 1.8rem;
+            }
+}
+
+@media only screen and (min-width : 641px) and (max-width : 1004px){
+      
+      nav img {
+            display: none;
+      }      
+}

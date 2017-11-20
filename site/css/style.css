@@ -5,7 +5,7 @@
     background: transparent;
 }
 
-#intro{
+#what, #how, #why{
     background: white
 }
 
@@ -51,7 +51,7 @@ nav {
       opacity: 0.8;
 }
 
-#intro {
+#what, #how, #why {
       background: white;
       padding: 4rem 0 4rem 0;
       -webkit-background-size: cover;
@@ -108,15 +108,9 @@ nav {
             border-radius: 5px;
       }
 
-
-
       .row {
         border-bottom: 2px #7fbff6 solid;
       }
-
-
-
-
 
       #background span {
             font-weight: 700;
@@ -209,46 +203,96 @@ nav {
 @media only screen
 and (max-width : 640px) {
 
-      background span {
-            font-weight: 200;
-      }
+  /*nav bar and menu*/
+  .logo, nav.top-bar {
+    width: 100%;
+  }
 
-      img {
-            max-width: 80%;
-      }
-      #intro {
-            padding: 2rem 0 2rem 0;
-      }
+  .logo img {
+    padding-left: 5px;
+  }
 
-            #intro img {
-                  display: none;
-            }
+  #background ul {
+    padding: 1em;
+    font-size: 0.8em;
+  }
 
-      #background p {
-            font-size: 2rem;
-      }
+  #background h2 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+  }
 
-      #logo img {
-            min-width: 55%;
-      }
+  li.active #head {
+    color: #7fbff6;
+  }
+  .top-bar-section ul li.active > a {
+    background: white;
+    color: #7fbff6;
+  }
 
-      .content {
-            padding: 1rem;
-      }
+  .contain-to-grid {
+    background: white;
+  }
 
-      #footer {
-            padding: 1rem;
-      }
+  .menu-icon {
+    list-style-type: none;
+  }
 
-            #footer p{
-                  padding: 1rem;
-                  font-size: 1.8rem;
-            }
-}
+  .menu-icon a {
+    padding-right: 0px;
+  }
 
-@media only screen and (min-width : 641px) and (max-width : 1004px){
+  #logo {
+    width: 40px;
+  }
 
-      nav img {
-            display: none;
-      }
+ .top-bar, .logo, .contain-to-grid.fixed.columns {
+    height: 60px;
+  }
+
+  #menu-icon {
+    float: right;
+    width: 15%;
+  }
+
+  #head {
+    color: #90959b;
+  }
+
+  /*paragraphs*/
+
+  #what, #how, #why {
+    padding-top: 0px;
+  }
+
+  .intro-list {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .intro-list li {
+    font-size: 0.8em;
+  }
+
+  #background p {
+    padding-top: 3em;
+    font-size: 1em;
+  }
+
+  .row {
+    border-bottom: 0.7px #7fbff6 solid;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #background ul {
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .contact {
+    font-size: 10px;
+  }
+
 }

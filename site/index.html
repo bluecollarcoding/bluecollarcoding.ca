@@ -23,13 +23,14 @@
   <div class="contain-to-grid fixed columns">
     <nav class="top-bar" data-topbar>
 	<div class="logo">
-	  <a href="#intro" class="internalScroll"><img src="favicon.ico" alt="The BCC logo"/></a>
+	  <a href="#intro" class="internalScroll"><img src="favicon.ico" alt="The BCC logo" id="logo"/></a>
+    <li class="toggle-topbar menu-icon"><a href="#"><img src="img/menu-blue.png" id="menu-icon"></a></li>
 	</div>
 
       <section class="top-bar-section">
 	<!-- Right Nav Section -->
 	<ul class="right">
-	  <li class="active">Blue Collar Coding</li>
+	  <li class="active" id="head">Blue Collar Coding</li>
     <li class="active"><a href="#what" class="internalScroll">What?</a></li>
     <li class="active"><a href="#how" class="internalScroll">How?</a></li>
     <li class="active"><a href="#why" class="internalScroll">Why?</a></li>
@@ -60,10 +61,10 @@
 
   <!----------------------------------------------------------------------------------------------------------------->
 
-  <div class="row" id="intro"> <!--- change this to repo maids --->
+  <div class="row" id="what"> <!--- change this to repo maids --->
     <div id="background">
       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-      	<p id="what">
+      	<p>
       	Software organizations are like car companies; they have engineers to design all the pieces that come together in a finished product. Unlike a car, however, software is constantly being driven around by users and developers. Changing the oil and other little maintenance tasks often fall behind. At Blue Collar Coding, we dig deep into your software project and clean out all the cobwebs. What does this mean?
         </p>
         <ul class="meaning">
@@ -80,10 +81,10 @@
 
   <!----------------------------------------------------------------------------------------------------------------->
 
-<div class="row" id="intro"> <!--- change this to docs --->
+<div class="row" id="how"> <!--- change this to docs --->
     <div id="background">
       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-	<p id="how">
+	<p>
 	<strong>Ah, documentation.</strong> Everyone praises it; few write it. By approaching a software project as intentionally naive, we find and fill gaps that might be barriers to entry for student programmers - often this is implicit knowledge or outdated instructions. This can include:
 
   <ul>
@@ -102,20 +103,20 @@
 
   <!----------------------------------------------------------------------------------------------------------------->
 
-<div class="row" id="intro"> <!--- change this to linting --->
+<div class="row" id="why"> <!--- change this to linting --->
    <div id="background">
      <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-       <p id="why">
-       Every language has a linter yet few projects include it as part of their Continuous Integration from day one. Many of the required lints are often simple but time consuming. We'll tackle them all and get your codebase up to the linting standard, then enforce it by adding the linter to your CI. Linting provides:
-
-
-        <ul>
-          <li> Standardized, clean, consistent code </li>
-          <li> Serendipitious identification of bugs and bad code </li>
-          <li> Improved documentation </li>
-        </ul>
+       <p>
+       Every language has a linter, yet few projects include it as part of their Continuous Integration from day one. Many of the required lints are often simple but time consuming. We'll tackle them all and get your codebase up to the linting standard, then enforce it by adding the linter to your CI. Linting provides:
 
       </p>
+
+      <ul>
+        <li> Standardized, clean, consistent code </li>
+        <li> Serendipitious identification of bugs and bad code </li>
+        <li> Improved documentation </li>
+      </ul>
+
      </div>
    </div>
  </div>
@@ -166,8 +167,8 @@
 	    var $anchor = $(this);
 
 	  $('html, body').stop().animate({
-	      scrollTop: $($anchor.attr('href')).offset().top
-	  }, 700);
+	      scrollTop: $($anchor.attr('href')).top
+	  }, 900);
 	});
       });
     </script>

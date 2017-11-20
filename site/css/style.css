@@ -5,10 +5,6 @@
     background: transparent;
 }
 
-#what, #how, #why{
-    background: white
-}
-
 .contain-to-grid.fixed.columns {
     background: white;
 
@@ -28,59 +24,62 @@ nav.top-bar {
 
 
 div .logo {
-    display: inline-block;
+  display: inline-block;
+}
+
+#logo img {
+  margin: 4.5rem 0 1.5rem 0;
+  max-width: 18%;
 }
 
 body {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 1500;
-      letter-spacing: 1.1px;
-      line-height: 2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1500;
+  letter-spacing: 1.1px;
+  line-height: 2;
 }
 
       body p {
-            line-height: 150%;
+        line-height: 150%;
       }
 
 h3 {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 1500;
-}
-
-nav {
-      opacity: 0.8;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1500;
 }
 
 #what, #how, #why {
-      background: white;
-      padding: 4rem 0 4rem 0;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+  background: white;
+  padding: 4rem 0 4rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+#background{}
+
       #background h2 {
-            font-family: 'Raleway', sans-serif;
-            font-size: 2.6em;
-            font-weight: 400;
-            color: #7fbff6;
-            background-color: white;
-            padding: 2rem;
-            border-radius: 5px;
-            margin-bottom: 3rem;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.6em;
+        font-weight: 400;
+        color: #7fbff6;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 5px;
+        margin-bottom: 3rem;
       }
 
       #background .intro-list {
-            font-weight: 200;
-            border: none;
+        font-weight: 200;
+        border: none;
       }
 
-          #background .intro-list span {
-            font-weight: 200;
-            font-size: 1.6em;
-            color: #90959b;
-          }
+      #background .intro-list span {
+        font-weight: 200;
+        font-size: 1.6em;
+        color: #90959b;
+      }
 
       #background ul {
         font-family: 'Raleway', sans-serif;
@@ -101,102 +100,72 @@ nav {
       }
 
       #background p {
-            font-size: 2em;
-            font-weight: 200;
-            color: #7fbff6;
-            padding: 1rem;
-            border-radius: 5px;
+        font-size: 2em;
+        font-weight: 200;
+        color: #7fbff6;
+        padding: 1rem;
+        border-radius: 5px;
       }
 
-      .row {
-        border-bottom: 2px #7fbff6 solid;
-      }
-
-      #background span {
-            font-weight: 700;
-      }
-
-      #logo img {
-                  margin: 4.5rem 0 1.5rem 0;
-                  max-width: 18%;
-            }
-
-#process {
-      padding: 2rem 0 2.5rem 0;
+.row {
+  border-bottom: 2px #7fbff6 solid;
 }
 
-      #process p {
-            padding: 1.5rem;
-      }
-
-      #process h3 {
-            padding: 1rem;
-            margin: 0 0 2rem 0;
-            background: #EEE;
-            border-radius: 5px;
-      }
-
 .content {
-      font-weight: 1500;
+  font-weight: 1500;
 }
 
       .content p {
-            font-weight: 1500;
-            padding: 0.5rem;
+        font-weight: 1500;
+        padding: 0.5rem;
       }
 
-.bubble {
-      border-radius: 5px;
-      background: #AAA;
-      border: 1px solid red;
-}
-
 #footer {
-      background: white;
-      padding: 2rem 0 3rem 0;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      border-bottom: none;
+  background: white;
+  padding: 2rem 0 3rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: none;
 }
 
-#footer ul{
-  width: 100%;
-  text-align: center;
-}
-#footer li {
-  list-style-type: none;
-  display: inline-block;
-  color: #90959b;
-  font-size: 2em;
-  text-align: center;
-}
+      #footer ul{
+        width: 100%;
+        text-align: center;
+      }
+      #footer li {
+        list-style-type: none;
+        display: inline-block;
+        color: #90959b;
+        font-size: 2em;
+        text-align: center;
+      }
 
       #footer p{
-            font-weight: 1500;
-            color: #90959b;
-            padding: 1rem;
-            border-radius: 5px;
+        font-weight: 1500;
+        color: #90959b;
+        padding: 1rem;
+        border-radius: 5px;
       }
 
       #footer a {
-            font-weight: 1500;
+        font-weight: 1500;
       }
 
       #footer a:hover {
-            text-decoration: underline;
+        text-decoration: underline;
       }
 
       #footer img {
-            border-radius: 5px;
-            width: 1em;
-            margin-left: 1rem;
+        border-radius: 5px;
+        width: 1em;
+        margin-left: 1rem;
       }
 
       #footer #jordan {
-            font-size: 10px;
-            font-weight: 200;
+        font-size: 10px;
+        font-weight: 200;
       }
 
 

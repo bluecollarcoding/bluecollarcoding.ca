@@ -1239,18 +1239,19 @@ meta.foundation-mq-topbar {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 45px; }
+      margin-top: 75px; }
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 75px;
+  line-height: 75px;
   position: relative;
   background: #333333;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
-    list-style: none; }
+    list-style: none;
+  width: 100%}
   .top-bar .row {
     max-width: none; }
   .top-bar form,
@@ -1337,7 +1338,7 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
+    background: white;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -1532,7 +1533,7 @@ meta.foundation-mq-topbar {
       background: #333333; }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 0; }
 
@@ -1540,9 +1541,18 @@ meta.foundation-mq-topbar {
     transition: none 0 0;
     left: 0 !important; }
     .top-bar-section ul {
+      padding: 0 15px;
+      line-height: 75px;
+      font-size: 1em;
+      color: #7fbff6;
+      background-color: white;
+      font-weight: 600;
       width: auto;
       height: auto !important;
-      display: inline; }
+      display: inline;
+    position: fixed;
+  top: 0;
+right: 0;}
       .top-bar-section ul li {
         float: left; }
         .top-bar-section ul li .js-generated {
@@ -1558,11 +1568,13 @@ meta.foundation-mq-topbar {
         background: #272727; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
-      line-height: 45px;
-      color: white;
-      background: #333333;}
+      line-height: 75px;
+      font-size: 1em;
+      color: #90959b;
+      background: white;}
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #4e88b7; }
+        background: #7fbff6;
+        color: white;}
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {

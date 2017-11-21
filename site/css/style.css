@@ -1,184 +1,268 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.contain-to-grid.fixed.columns {
+    background: white;
+}
+
+section.top-bar-section {
+    background: white;
+}
+
+nav.top-bar {
+  width: 5%;
+  padding-top: 0px;
+  margin-top: 0px;
+  background: white;
+  display: inline-block;
+}
+
+
+div .logo {
+  display: inline-block;
+}
+
+#logo img {
+  margin: 4.5rem 0 1.5rem 0;
+  max-width: 18%;
+}
+
 body {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 1500;
-      letter-spacing: 1.1px;
-      line-height: 2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1500;
+  letter-spacing: 1.1px;
+  line-height: 2;
 }
 
       body p {
-            line-height: 150%;
+        line-height: 150%;
       }
 
 h3 {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 1500;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1500;
 }
 
-nav {
-      opacity: 0.8;
+#what, #how, #why {
+  background: white;
+  padding: 4rem 0 4rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-      nav img {
-            padding-top: 10px;
-      }
+#background{}
 
-#intro {
-      background: url("../img/programming.jpeg")fixed center center no-repeat;
-      padding: 4rem 0 10rem 0;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      border-bottom: solid #184ee9 0.5rem;
-}
-     
       #background h2 {
-            font-family: 'Raleway', sans-serif;
-            font-size: 2.6em;
-            font-weight: 400;
-            color: #000000;
-            background-color: rgba(255,240,0,1);
-            padding: 2rem;
-            border-radius: 5px;
-            margin-bottom: 3rem;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.6em;
+        font-weight: 400;
+        color: #7fbff6;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 5px;
+        margin-bottom: 3rem;
+        padding-top: 70px;
       }
-      
+
+      #background .intro-list {
+        font-weight: 200;
+        border: none;
+        text-align: center;
+      }
+
+      #background .intro-list span {
+        font-weight: 200;
+        font-size: 1.6em;
+        color: #90959b;
+      }
+
+      #background ul {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.4em;
+        font-weight: 400;
+        color: #90959b;
+        background-color: white;
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border: 2px #7fbff6 solid;
+        border-radius: 10px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       #background p {
-            font-size: 2.6em;
-            font-weight: 200;
-            color: #000000;
-            background-color: rgba(24,78,224,1);
-            padding: 3rem;
-            border-radius: 5px;
-      }
-      
-      #background span {
-            font-weight: 700;
+        font-size: 2em;
+        font-weight: 200;
+        color: #7fbff6;
+        padding: 1rem;
+        border-radius: 5px;
       }
 
-      #logo img {
-                  margin: 4.5rem 0 1.5rem 0;
-                  max-width: 18%;
-            }
-
-#process {
-      padding: 2rem 0 2.5rem 0;
-      border-bottom: solid #184ee9 0.5rem;
+.row {
+  border-bottom: 2px #7fbff6 solid;
 }
-
-      #process p {
-            padding: 1.5rem;
-      }
-      
-      #process h3 {
-            padding: 1rem;
-            margin: 0 0 2rem 0;
-            background: #EEE;
-            border-radius: 5px;
-      }
 
 .content {
-      font-weight: 1500;
-      border-top: solid #FFF000 0.5rem;
-      border-bottom: solid #184ee9 0.5rem;
+  font-weight: 1500;
 }
 
       .content p {
-            font-weight: 1500;
-            padding: 0.5rem;
+        font-weight: 1500;
+        padding: 0.5rem;
       }
-
-.bubble {
-      border-radius: 5px;
-      background: #AAA;
-      border: 1px solid red;
-}
 
 #footer {
-      background: url("../img/programming.jpeg")fixed center center no-repeat;
-      padding: 2rem 0 3rem 0;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      color: #FFF000;
-      border-bottom: none;
+  background: white;
+  padding: 2rem 0 3rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: none;
 }
 
+      #footer ul{
+        width: 100%;
+        text-align: center;
+      }
+      #footer li {
+        list-style-type: none;
+        display: inline-block;
+        color: #90959b;
+        font-size: 2em;
+        text-align: center;
+      }
+
       #footer p{
-            font-weight: 1500;
-            color: black;
-            background-color:rgba(245,245,245,1.0);
-            padding: 1rem;
-            border-radius: 5px;
+        font-weight: 1500;
+        color: #90959b;
+        padding: 1rem;
+        border-radius: 5px;
       }
-      
+
       #footer a {
-            font-weight: 1500;
+        font-weight: 1500;
       }
-      
+
       #footer a:hover {
-            text-decoration: underline;
+        text-decoration: underline;
       }
-      
+
       #footer img {
-            background-color: rgba(255,240,0,1.0);
-            border-radius: 5px;
-            padding: 1rem;
-            margin-left: 1rem;
+        border-radius: 5px;
+        width: 1em;
+        margin-left: 1rem;
       }
-      
+
       #footer #jordan {
-            font-size: 24px;
-            font-weight: 200;
+        font-size: 10px;
+        font-weight: 200;
       }
-      
+
 
 @media only screen
 and (max-width : 640px) {
 
-      background span {
-            font-weight: 200;
-      }
+  /*nav bar and menu*/
+  .logo, nav.top-bar {
+    width: 100%;
+  }
 
-      img {
-            max-width: 80%;
-      }
-      #intro {
-            padding: 2rem 0 2rem 0;
-      }
-      
-            #intro img {
-                  display: none;
-            }
-      
-      #background p {
-            font-size: 2rem;
-      }
-      
-      #logo img {
-            min-width: 55%;
-      }
-      
-      .content {
-            padding: 1rem;
-      }
-      
-      #footer {
-            padding: 1rem;
-      }
-      
-            #footer p{
-                  padding: 1rem;
-                  font-size: 1.8rem;
-            }
-}
+  .logo img {
+    padding-left: 5px;
+  }
 
-@media only screen and (min-width : 641px) and (max-width : 1004px){
-      
-      nav img {
-            display: none;
-      }      
+  #background ul {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+
+  #background h2 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+  }
+
+  li.active #head {
+    color: #7fbff6;
+  }
+  .top-bar-section ul li.active > a {
+    background: white;
+    color: #7fbff6;
+  }
+
+  .contain-to-grid {
+    background: white;
+  }
+
+  .menu-icon {
+    list-style-type: none;
+  }
+
+  .menu-icon a {
+    padding-right: 0px;
+  }
+
+  #logo {
+    width: 40px;
+  }
+
+ .top-bar, .logo, .contain-to-grid.fixed.columns {
+    height: 60px;
+  }
+
+  #menu-icon {
+    float: right;
+    width: 15%;
+  }
+
+  #head {
+    color: #90959b;
+  }
+
+  /*paragraphs*/
+
+  #what, #how, #why {
+    padding-top: 0px;
+  }
+
+  .intro-list {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .intro-list li {
+    font-size: 0.8em;
+  }
+
+  #background p {
+    padding-top: 3em;
+    font-size: 1em;
+  }
+
+  .row {
+    border-bottom: 0.7px #7fbff6 solid;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #background ul {
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .contact {
+    font-size: 10px;
+  }
+
 }

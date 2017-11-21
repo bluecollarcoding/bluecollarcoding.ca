@@ -6,113 +6,117 @@
     <meta name="author" content="The Blue Collar Coding Company">
     <meta name="description" content="Doing the work your engineers shouldn't.">
     <meta name="robots" content="all">
-    
+
     <title>Home | BCC</title>
-    
+
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    
+
     <script src="js/vendor/modernizr.js"></script>
-    
-    <script>
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-   
-     ga('create', 'UA-48302191-4', 'bluecollarcoding.ca');
-     ga('send', 'pageview');
-   
-   </script>
+
+
   </head>
-  
+
   <body>
-  
+
   <div class="contain-to-grid fixed columns">
     <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-	<li class="name">
-	  <a href="#intro" class="internalScroll"><img src="favicon.ico" width="20%" alt="The BCC logo"/></a>
-	</li>
-	 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-	<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-    
+	<div class="logo">
+	  <a href="#intro" class="internalScroll"><img src="favicon.ico" alt="The BCC logo" id="logo"/></a>
+    <li class="toggle-topbar menu-icon"><a href="#log-line"><img src="img/menu-blue.png" id="menu-icon"></a></li>
+	</div>
+
       <section class="top-bar-section">
 	<!-- Right Nav Section -->
 	<ul class="right">
-	  <li class="active"><a href="#logo" class="internalScroll">Blue Collar Coding</a></li>
-	  <li class="active"><a href="#footer" class="internalScroll">Contact</a></li>
+	  <li class="active" id="head">Blue Collar Coding</li>
+    <li class="active"><a href="#what" class="internalScroll">What?</a></li>
+    <li class="active"><a href="#how" class="internalScroll">How?</a></li>
+    <li class="active"><a href="#why" class="internalScroll">Why?</a></li>
+    <li class="active"><a href="#footer" class="internalScroll">Contact</a></li>
 	</ul>
     </nav>
   </div>
-  
+
   <!----------------------------------------------------------------------------------------------------------------->
-  
+
   <div class="row" id="intro">
     <div id="background">
       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-          <h2>A clean repo is an effective repo.<br>
-	  We do the work your engineers shouldn't</h2>
+        <h2 id="log-line">
+          A clean repo is an effective repo.<br>
+          We do the work your engineers shouldn't.
+        </h2>
 
-	<p>
-    <strong>&bull; </strong> Maintenance & Cleanliness for Repositories<br>
-    <strong>&bull; </strong> Documentation Overhaul & Smoke Testing<br>
-    <strong>&bull; </strong> Code Linting with Continuous Integration
-	</p>
+      	<ul class="intro-list">
+          <li> <span>Maintenance & Cleanliness for Repositories</span></li>
+          <li> <span>Documentation Overhaul & Smoke Testing</span></li>
+          <li> <span>Code Linting with Continuous Integration</span></li>
+      	</ul>
       </div>
     </div>
   </div>
 
 
   <!----------------------------------------------------------------------------------------------------------------->
-  
-  <div class="row" id="intro"> <!--- change this to repo maids --->
+
+  <div class="row" id="what"> <!--- change this to repo maids --->
     <div id="background">
       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-	<p>
-	Software organizations are like car companies; they have engineers to design all the pieces that come together in a finished product. Unlike a car, however, software is constantly being driven around by users and developers. Changing the oil and other little maintenance tasks often fall behind. At Blue Collar Coding, we dig deep into your software project and clean out all the cobwebs. What does this mean?<br><br><br>
-
-<strong>&bull; </strong> improve approachability of repositories to new users <br>
-<strong>&bull; </strong> clarify and document the dev workflow across multiple repos <br>
-<strong>&bull; </strong> find and fix dead links + mark appropriate repos for deprecation <br>
-<strong>&bull; </strong> consolidate duplicate information/files/issues/branches <br>
-<strong>&bull; </strong> review and address stale issues/pull requests <br>
-<strong>&bull; </strong> generally make your organizations' repositories easily navigable
-
-       </p>
+      	<p>
+      	Software organizations are like car companies; they have engineers to design all the pieces that come together in a finished product. Unlike a car, however, software is constantly being driven around by users and developers. Changing the oil and other little maintenance tasks often fall behind. At Blue Collar Coding, we dig deep into your software project and clean out all the cobwebs. What does this mean?
+        </p>
+        <ul class="meaning">
+          <li> Improve approachability of repositories to new users </li>
+          <li> Clarify and document the dev workflow across multiple repos </li>
+          <li> Find and fix dead links + mark appropriate repos for deprecation </li>
+          <li> Consolidate duplicate information/files/issues/branches </li>
+          <li> Review and address stale issues/pull requests </li>
+          <li> Generally make your organizations' repositories easily navigable </li>
+        </ul>
      </div>
    </div>
  </div>
 
   <!----------------------------------------------------------------------------------------------------------------->
-  
-<div class="row" id="intro"> <!--- change this to docs --->
+
+<div class="row" id="how"> <!--- change this to docs --->
     <div id="background">
       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
 	<p>
-	Ah, documentation. Everyone praises it, few write it. By approaching a software project as intentionally naive, we find and fill gaps that might be barriers to entry for student programmers - often this is implicit knowledge or outdated instructions. This can include:<br><br><br>
+	<strong>Ah, documentation.</strong> Everyone praises it; few write it. By approaching a software project as intentionally naive, we find and fill gaps that might be barriers to entry for student programmers - often this is implicit knowledge or outdated instructions. This can include:
 
-<strong>&bull; </strong>going through all the docs step by step <br>
-<strong>&bull; </strong>finding and fixing the small gaps <br>
-<strong>&bull; </strong>removing unnecessary complexity <br>
-<strong>&bull; </strong>epxanding the steps that involve implicit knowledge <br>
-<strong>&bull; </strong>consolidation of disparate docs/information <br>
-<strong>&bull; </strong>implementate continuous documentation workflow <br>
-<strong>&bull; </strong>documenting new features (especially if a cli with bash tests) <br>
+  <ul>
+    <li> Going through all the docs step by step </li>
+    <li> Finding and fixing the small gaps </li>
+    <li> Removing unnecessary complexity </li>
+    <li> Expanding the steps that involve implicit knowledge </li>
+    <li> Consolidation of disparate docs/information </li>
+    <li> Implementate continuous documentation workflow </li>
+    <li> Documenting new features (especially if a cli with bash tests) </li>
+  </ul>
+
+</div>
+</div>
+</div>
 
   <!----------------------------------------------------------------------------------------------------------------->
- 
-<div class="row" id="intro"> <!--- change this to linting --->
+
+<div class="row" id="why"> <!--- change this to linting --->
    <div id="background">
      <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
        <p>
-       Every language has a linter yet few projects include it as part of their Continuous Integration from day one. Many of the required lints are often simple but time consuming. We'll tackle them all and get your codebase up to the linting standard, then enforce it by adding the linter to your CI. Linting provides:<br><br><br>
+       Every language has a linter, yet few projects include it as part of their Continuous Integration from day one. Many of the required lints are often simple but time consuming. We'll tackle them all and get your codebase up to the linting standard, then enforce it by adding the linter to your CI. Linting provides:
 
-<strong>&bull; </strong> standardized, clean, consistent code <br>
-<strong>&bull; </strong> serendipitious identification of bugs and bad code <br>
-<strong>&bull; </strong> improved documentation
+      </p>
 
-       </p>
+      <ul>
+        <li> Standardized, clean, consistent code </li>
+        <li> Serendipitious identification of bugs and bad code </li>
+        <li> Improved documentation </li>
+      </ul>
+
      </div>
    </div>
  </div>
@@ -122,41 +126,52 @@
   <div class="row content" id="footer">
     <div class="small-centered small-12 medium-8 large-centered large-6 columns small-text-right">
       <div id="content">
-	<p>Zach Ramsay
-	  <a href="https://www.linkedin.com/in/zach-ramsay-7a473a94/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn Logo"/></a>
-	  <a href="https://twitter.com/cerebralbosons" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"/></a>
-	</p>
-    <p id="jordan" class="small-text-center"><a href="mailto:zach@bluecollarcoding.ca">zach@bluecollarcoding.ca</a></p>
-    <p id="jordan" class="small-text-center">Guelph, On, Canada</p>
-	<p id="jordan" class="small-text-center">Blue Collar Coding &copy 2017 | site by <a href="http://www.jordanbibla.com" target="_blank">Jordan Bibla</a></p>
+
+        <ul class=contact>
+	         <li>Zach Ramsay</li>
+           <li>
+	           <a href="https://www.linkedin.com/in/zach-ramsay-7a473a94/" target="_blank"><img src="img/LinkedIn_logo_initials_blue.png" alt="LinkedIn Logo"/></a>
+          </li>
+          <li>
+            <a href="mailto:zach@bluecollarcoding.ca"><img src=img/email-blue.png></a>
+          </li>
+          <li>
+            <a href="https://github.com/bluecollarcoding"><img src=img/github-square-blue.png></a>
+          </li>
+          <li>
+	          <a href="https://twitter.com/cerebralbosons" target="_blank"><img src="img/twitter-icon-blue.png" alt="Twitter Logo"/></a>
+          </li>
+        </ul>
+
+	       <p id="jordan" class="small-text-center">Blue Collar Coding &copy 2017 | site by Josh Kestenberg</p>
       </div>
     </div>
   </div>
-  
+
 <!---------------javscript ya'll--------------------------------->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.topbar.js"></script>
-    
+
     <script>
       $(document).foundation();
     </script>
 
     <script>
       $(document).ready(function(){
-      
+
 	//alert("hello")
-	  
+
 	  $('a.internalScroll').bind('click',function(event){
 	    var $anchor = $(this);
-   
+
 	  $('html, body').stop().animate({
-	      scrollTop: $($anchor.attr('href')).offset().top
-	  }, 700);
+	      scrollTop: $($anchor.attr('href')).top
+	  }, 900);
 	});
       });
     </script>
-    
+
   </body>
 </html>

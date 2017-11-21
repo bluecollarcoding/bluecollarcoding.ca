@@ -31,6 +31,11 @@ div .logo {
   max-width: 18%;
 }
 
+h2#log-line {
+    padding-top: 32px;
+    margin-top: 70px;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 1500;
@@ -48,32 +53,35 @@ h3 {
 }
 
 #what, #how, #why {
-  background: white;
   padding: 4rem 0 4rem 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-color: rgba(255,255,255,0.3)
+}
+
+#main {
+  background: url(../img/code-bg.png) no-repeat fixed;
   background-size: cover;
 }
 
-#background{}
+#background{
+}
 
       #background h2 {
         font-family: 'Raleway', sans-serif;
         font-size: 2.6em;
         font-weight: 400;
         color: #7fbff6;
-        background-color: white;
+        background-color: rgba(255,255,255,0.3);
         padding: 2rem;
         border-radius: 5px;
         margin-bottom: 3rem;
-        padding-top: 70px;
+        padding-top: 32px;
       }
 
       #background .intro-list {
         font-weight: 200;
         border: none;
         text-align: center;
+        background-color: rgba(255,255,255,0.3);
       }
 
       #background .intro-list span {
@@ -123,7 +131,7 @@ h3 {
 
 #footer {
   background: white;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 0 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -217,7 +225,7 @@ and (max-width : 640px) {
   }
 
  .top-bar, .logo, .contain-to-grid.fixed.columns {
-    height: 60px;
+    height: 59px;
   }
 
   #menu-icon {
@@ -231,13 +239,23 @@ and (max-width : 640px) {
 
   /*paragraphs*/
 
+  #main p {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  h2#log-line {
+    padding-top: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   #what, #how, #why {
     padding-top: 0px;
   }
 
   .intro-list {
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 30px !important;
   }
 
   .intro-list li {

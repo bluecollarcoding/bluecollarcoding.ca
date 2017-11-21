@@ -54,11 +54,10 @@ h3 {
 
 #what, #how, #why {
   padding: 4rem 0 4rem 0;
-  background-color: rgba(255,255,255,0.3)
 }
 
 #main {
-  background: url(../img/code-bg.png) no-repeat fixed;
+  background: url(../img/code-bg-dark.png) no-repeat fixed;
   background-size: cover;
 }
 
@@ -70,7 +69,6 @@ h3 {
         font-size: 2.6em;
         font-weight: 400;
         color: #7fbff6;
-        background-color: rgba(255,255,255,0.3);
         padding: 2rem;
         border-radius: 5px;
         margin-bottom: 3rem;
@@ -79,23 +77,22 @@ h3 {
 
       #background .intro-list {
         font-weight: 200;
-        border: none;
         text-align: center;
-        background-color: rgba(255,255,255,0.3);
+        border: 2px #7fbff6 solid;
       }
 
       #background .intro-list span {
         font-weight: 200;
         font-size: 1.6em;
-        color: #90959b;
+        color: black;
       }
 
       #background ul {
         font-family: 'Raleway', sans-serif;
         font-size: 1.4em;
         font-weight: 400;
-        color: #90959b;
-        background-color: white;
+        color: black;
+        background-color: rgba(255, 255, 255,0.5);
         padding: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
@@ -146,14 +143,14 @@ h3 {
       #footer li {
         list-style-type: none;
         display: inline-block;
-        color: #90959b;
+        color: black;
         font-size: 2em;
         text-align: center;
       }
 
       #footer p{
         font-weight: 1500;
-        color: #90959b;
+        color: black;
         padding: 1rem;
         border-radius: 5px;
       }
@@ -173,7 +170,7 @@ h3 {
       }
 
       #footer #jordan {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 200;
       }
 
@@ -234,14 +231,10 @@ and (max-width : 640px) {
   }
 
   #head {
-    color: #90959b;
+    color: black;
   }
 
   /*paragraphs*/
-
-  #main p {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
 
   h2#log-line {
     padding-top: 32px;
@@ -265,6 +258,7 @@ and (max-width : 640px) {
   #background p {
     padding-top: 3em;
     font-size: 1em;
+    font-weight: 400;
   }
 
   .row {
@@ -274,13 +268,18 @@ and (max-width : 640px) {
   }
 
   #background ul {
-    border: none;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding: 30px;
   }
 
   .contact {
     font-size: 10px;
+  }
+
+  #footer #jordan {
+    font-size: 10px;
+    font-weight: 200;
   }
 
 }

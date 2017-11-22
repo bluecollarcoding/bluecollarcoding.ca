@@ -50,7 +50,7 @@ h3 {
   font-weight: 1500;
 }
 
-#what, #how, #why, #who {
+#what, #documentation, #linting, #customers {
   padding: 4rem 0 4rem 0;
 }
 
@@ -250,7 +250,7 @@ and (max-width : 640px) {
     margin-bottom: 30px;
   }
 
-  #what, #how, #why {
+  #what, #documentation, #linting {
     padding-top: 0px;
   }
 

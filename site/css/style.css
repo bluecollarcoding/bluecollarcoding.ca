@@ -129,6 +129,11 @@ h3 {
   width: 7em;
 }
 
+#clients li{
+  display: inline-block;
+  padding: 1em;
+}
+
 #footer {
   background: white;
   padding: 2rem 0 0 0;

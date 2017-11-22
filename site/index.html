@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/foundation.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Electrolize|Gudea|Metrophobic|Orbitron|Play|Raleway|Ubuntu+Mono" rel="stylesheet">
 
     <script src="js/vendor/modernizr.js"></script>
 
@@ -34,94 +35,119 @@
     <li class="active"><a href="#what" class="internalScroll">What?</a></li>
     <li class="active"><a href="#how" class="internalScroll">How?</a></li>
     <li class="active"><a href="#why" class="internalScroll">Why?</a></li>
+    <li class="active"><a href="#who" class="internalScroll">Who?</a></li>
     <li class="active"><a href="#footer" class="internalScroll">Contact</a></li>
 	</ul>
     </nav>
   </div>
 
   <!----------------------------------------------------------------------------------------------------------------->
+  <div id="main">
+    <div class="row" id="intro">
+      <div id="background">
+        <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
+          <h2 id="log-line">
+            A clean repo is an effective repo.<br>
+            We do the work your engineers shouldn't.
+          </h2>
 
-  <div class="row" id="intro">
+        	<ul class="intro-list">
+            <li> <span>&bull; Maintenance & Cleanliness for Repositories</span></li>
+            <li> <span>&bull; Documentation Overhaul & Smoke Testing</span></li>
+            <li> <span>&bull; Code Linting with Continuous Integration</span></li>
+        	</ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------------------------------------------------------------------------------------------------------->
+
+    <div class="row" id="what"> <!--- change this to repo maids --->
+      <div id="background">
+        <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
+        	<p>
+        	Software organizations are like car companies; they have engineers to design all the pieces that come together in a finished product. Unlike a car, however, software is constantly being driven around by users and developers. Changing the oil and other little maintenance tasks often fall behind. At Blue Collar Coding, we dig deep into your software project and clean out all the cobwebs. What does this mean?
+          </p>
+          <ul class="meaning">
+            <li>&bull; Improve approachability of repositories to new users </li>
+            <li>&bull; Clarify and document the dev workflow across multiple repos </li>
+            <li>&bull; Find and fix dead links + mark appropriate repos for deprecation </li>
+            <li>&bull; Consolidate duplicate information/files/issues/branches </li>
+            <li>&bull; Review and address stale issues/pull requests </li>
+            <li>&bull; Generally make your organizations' repositories easily navigable </li>
+          </ul>
+       </div>
+     </div>
+   </div>
+
+    <!----------------------------------------------------------------------------------------------------------------->
+
+  <div class="row" id="how"> <!--- change this to docs --->
     <div id="background">
       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-        <h2 id="log-line">
-          A clean repo is an effective repo.<br>
-          We do the work your engineers shouldn't.
-        </h2>
+      	<p>
+        	<strong>Ah, documentation.</strong> Everyone praises it; few write it. By approaching a software project as intentionally naive, we find and fill gaps that might be barriers to entry for student programmers - often this is implicit knowledge or outdated instructions. This can include:
+        </p>
 
-      	<ul class="intro-list">
-          <li> <span>Maintenance & Cleanliness for Repositories</span></li>
-          <li> <span>Documentation Overhaul & Smoke Testing</span></li>
-          <li> <span>Code Linting with Continuous Integration</span></li>
-      	</ul>
+        <ul>
+          <li>&bull; Going through all the docs step by step </li>
+          <li>&bull; Finding and fixing the small gaps </li>
+          <li>&bull; Removing unnecessary complexity </li>
+          <li>&bull; Expanding the steps that involve implicit knowledge </li>
+          <li>&bull; Consolidation of disparate docs/information </li>
+          <li>&bull; Implementate continuous documentation workflow </li>
+          <li>&bull; Documenting new features (especially if a cli with bash tests) </li>
+        </ul>
+
       </div>
     </div>
   </div>
 
+    <!----------------------------------------------------------------------------------------------------------------->
 
-  <!----------------------------------------------------------------------------------------------------------------->
+  <div class="row" id="why"> <!--- change this to linting --->
+     <div id="background">
+       <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
+         <p>
+         Every language has a linter, yet few projects include it as part of their Continuous Integration from day one. Many of the required lints are often simple but time consuming. We'll tackle them all and get your codebase up to the linting standard, then enforce it by adding the linter to your CI. Linting provides:
 
-  <div class="row" id="what"> <!--- change this to repo maids --->
-    <div id="background">
-      <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-      	<p>
-      	Software organizations are like car companies; they have engineers to design all the pieces that come together in a finished product. Unlike a car, however, software is constantly being driven around by users and developers. Changing the oil and other little maintenance tasks often fall behind. At Blue Collar Coding, we dig deep into your software project and clean out all the cobwebs. What does this mean?
         </p>
-        <ul class="meaning">
-          <li> Improve approachability of repositories to new users </li>
-          <li> Clarify and document the dev workflow across multiple repos </li>
-          <li> Find and fix dead links + mark appropriate repos for deprecation </li>
-          <li> Consolidate duplicate information/files/issues/branches </li>
-          <li> Review and address stale issues/pull requests </li>
-          <li> Generally make your organizations' repositories easily navigable </li>
+
+        <ul>
+          <li>&bull; Standardized, clean, consistent code </li>
+          <li>&bull; Serendipitious identification of bugs and bad code </li>
+          <li>&bull; Improved documentation </li>
         </ul>
+
+       </div>
      </div>
    </div>
- </div>
 
-  <!----------------------------------------------------------------------------------------------------------------->
+     <!----------------------------------------------------------------------------------------------------------------->
 
-<div class="row" id="how"> <!--- change this to docs --->
-    <div id="background">
-      <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-	<p>
-	<strong>Ah, documentation.</strong> Everyone praises it; few write it. By approaching a software project as intentionally naive, we find and fill gaps that might be barriers to entry for student programmers - often this is implicit knowledge or outdated instructions. This can include:
+   <div class="row" id="who">
+      <div id="background">
+        <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
+          <p>
+          Our service is already in use by several acclaimed companies. Our clients include:
+         </p>
 
-  <ul>
-    <li> Going through all the docs step by step </li>
-    <li> Finding and fixing the small gaps </li>
-    <li> Removing unnecessary complexity </li>
-    <li> Expanding the steps that involve implicit knowledge </li>
-    <li> Consolidation of disparate docs/information </li>
-    <li> Implementate continuous documentation workflow </li>
-    <li> Documenting new features (especially if a cli with bash tests) </li>
-  </ul>
+         <ul id="clients">
+           <li><a href="https://www.ethereum.org/"><img src="img/ethereum.png"></a></li>
+           <li><a href="https://cosmos.network/"><img src="img/cosmos.png"></a></li>
+           <li><a href="https://tendermint.com/"><img src="img/tendermint.png"></a></li>
+         </ul>
 
-</div>
-</div>
-</div>
+        </div>
+      </div>
+    </div>
 
-  <!----------------------------------------------------------------------------------------------------------------->
+ <!----------------------------------------------------------------------------------------------------------------->
 
-<div class="row" id="why"> <!--- change this to linting --->
-   <div id="background">
-     <div class="small-12 medium-centered-10 large-centered large-10 columns text-center">
-       <p>
-       Every language has a linter, yet few projects include it as part of their Continuous Integration from day one. Many of the required lints are often simple but time consuming. We'll tackle them all and get your codebase up to the linting standard, then enforce it by adding the linter to your CI. Linting provides:
+  </div>
 
-      </p>
 
-      <ul>
-        <li> Standardized, clean, consistent code </li>
-        <li> Serendipitious identification of bugs and bad code </li>
-        <li> Improved documentation </li>
-      </ul>
-
-     </div>
-   </div>
- </div>
-
-  <!----------------------------------------------------------------------------------------------------------------->
 
   <div class="row content" id="footer">
     <div class="small-centered small-12 medium-8 large-centered large-6 columns small-text-right">
@@ -136,6 +162,9 @@
             <a href="mailto:zach@bluecollarcoding.ca"><img src=img/email-blue.png></a>
           </li>
           <li>
+            <a href="https://www.facebook.com/bluecollarcode/"><img src=img/facebook-icon.png></a>
+          </li>
+          <li>
             <a href="https://github.com/bluecollarcoding"><img src=img/github-square-blue.png></a>
           </li>
           <li>
@@ -143,7 +172,7 @@
           </li>
         </ul>
 
-	       <p id="jordan" class="small-text-center">Blue Collar Coding &copy 2017 | site by Josh Kestenberg</p>
+	       <p id="jordan" class="small-text-center">Blue Collar Coding &copy 2017 | site by <a href="https://github.com/joshkestenberg">Josh Kestenberg</a></p>
       </div>
     </div>
   </div>

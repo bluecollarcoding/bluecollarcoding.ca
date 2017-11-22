@@ -1429,13 +1429,13 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #90959b;
+    background: black;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #90959b;
+    background: black;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #90959b;
+      background: black;
       color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -1570,7 +1570,7 @@ right: 0;}
       padding: 0 15px;
       line-height: 75px;
       font-size: 1em;
-      color: #90959b;
+      color: black;
       background: white;}
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #7fbff6;
@@ -2818,11 +2818,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #4e88b7;
+  color: #686868;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #ce8452; }
+    color: #7fbff6; }
   a img {
     border: none; }
 

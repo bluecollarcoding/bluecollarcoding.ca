@@ -1,8 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
-
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+    display: none;
 }
 
 .contain-to-grid.fixed.columns {
@@ -31,11 +28,17 @@ div .logo {
   max-width: 18%;
 }
 
+h2#log-line {
+    padding-top: 32px;
+    margin-top: 70px;
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Play', sans-serif;
   font-weight: 1500;
   letter-spacing: 1.1px;
   line-height: 2;
+  overflow-x: hidden;
 }
 
       body p {
@@ -43,61 +46,62 @@ body {
       }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Play', sans-serif;
   font-weight: 1500;
 }
 
-#what, #how, #why {
-  background: white;
+#what, #how, #why, #who {
   padding: 4rem 0 4rem 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+}
+
+#main {
+  background: url(../img/code-bg-dark.png) no-repeat fixed;
   background-size: cover;
 }
 
-#background{}
+#background{
+}
 
       #background h2 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 2.6em;
+        font-family: 'Play', sans-serif;
+        font-size: 2.8em;
         font-weight: 400;
         color: #7fbff6;
-        background-color: white;
         padding: 2rem;
         border-radius: 5px;
         margin-bottom: 3rem;
-        padding-top: 70px;
+        padding-top: 32px;
       }
 
       #background .intro-list {
         font-weight: 200;
-        border: none;
         text-align: center;
+        border: 3px #7fbff6 solid;
       }
 
       #background .intro-list span {
         font-weight: 200;
         font-size: 1.6em;
-        color: #90959b;
+        color: black;
       }
 
       #background ul {
         font-family: 'Raleway', sans-serif;
         font-size: 1.4em;
         font-weight: 400;
-        color: #90959b;
-        background-color: white;
+        color: black;
+        background-color: rgb(255, 255, 255);
         padding: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
-        border: 2px #7fbff6 solid;
+        border: 3px #7fbff6 solid;
         border-radius: 10px;
         margin-top: 5rem;
         margin-bottom: 5rem;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        list-style-type: none;
       }
 
       #background p {
@@ -109,7 +113,7 @@ h3 {
       }
 
 .row {
-  border-bottom: 2px #7fbff6 solid;
+  border-bottom: 3px #7fbff6 solid;
 }
 
 .content {
@@ -121,9 +125,18 @@ h3 {
         padding: 0.5rem;
       }
 
+#clients img{
+  width: 7em;
+}
+
+#clients li{
+  display: inline-block;
+  padding: 1em;
+}
+
 #footer {
   background: white;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 0 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,14 +151,14 @@ h3 {
       #footer li {
         list-style-type: none;
         display: inline-block;
-        color: #90959b;
+        color: black;
         font-size: 2em;
         text-align: center;
       }
 
       #footer p{
         font-weight: 1500;
-        color: #90959b;
+        color: black;
         padding: 1rem;
         border-radius: 5px;
       }
@@ -165,7 +178,7 @@ h3 {
       }
 
       #footer #jordan {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 200;
       }
 
@@ -217,7 +230,7 @@ and (max-width : 640px) {
   }
 
  .top-bar, .logo, .contain-to-grid.fixed.columns {
-    height: 60px;
+    height: 59px;
   }
 
   #menu-icon {
@@ -226,10 +239,16 @@ and (max-width : 640px) {
   }
 
   #head {
-    color: #90959b;
+    color: black;
   }
 
   /*paragraphs*/
+
+  h2#log-line {
+    padding-top: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
   #what, #how, #why {
     padding-top: 0px;
@@ -247,6 +266,7 @@ and (max-width : 640px) {
   #background p {
     padding-top: 3em;
     font-size: 1em;
+    font-weight: 400;
   }
 
   .row {
@@ -256,13 +276,18 @@ and (max-width : 640px) {
   }
 
   #background ul {
-    border: none;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding: 30px;
   }
 
   .contact {
     font-size: 10px;
+  }
+
+  #footer #jordan {
+    font-size: 10px;
+    font-weight: 200;
   }
 
 }

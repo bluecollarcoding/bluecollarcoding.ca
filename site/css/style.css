@@ -50,7 +50,7 @@ h3 {
   font-weight: 1500;
 }
 
-#what, #how, #why, #who {
+#oil-change, #documentation, #linting, #customers {
   padding: 4rem 0 4rem 0;
 }
 
@@ -177,7 +177,7 @@ h3 {
         margin-left: 1rem;
       }
 
-      #footer #jordan {
+      #footer #josh {
         font-size: 13px;
         font-weight: 200;
       }
@@ -250,7 +250,7 @@ and (max-width : 640px) {
     margin-bottom: 30px;
   }
 
-  #what, #how, #why {
+  #oil-change, #documentation, #linting {
     padding-top: 0px;
   }
 

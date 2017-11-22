@@ -1,8 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
-
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+    display: none;
 }
 
 .contain-to-grid.fixed.columns {
@@ -37,10 +34,11 @@ h2#log-line {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Play', sans-serif;
   font-weight: 1500;
   letter-spacing: 1.1px;
   line-height: 2;
+  overflow-x: hidden;
 }
 
       body p {
@@ -48,11 +46,11 @@ body {
       }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Play', sans-serif;
   font-weight: 1500;
 }
 
-#what, #how, #why {
+#what, #how, #why, #who {
   padding: 4rem 0 4rem 0;
 }
 
@@ -65,8 +63,8 @@ h3 {
 }
 
       #background h2 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 2.6em;
+        font-family: 'Play', sans-serif;
+        font-size: 2.8em;
         font-weight: 400;
         color: #7fbff6;
         padding: 2rem;
@@ -78,7 +76,7 @@ h3 {
       #background .intro-list {
         font-weight: 200;
         text-align: center;
-        border: 2px #7fbff6 solid;
+        border: 3px #7fbff6 solid;
       }
 
       #background .intro-list span {
@@ -92,17 +90,18 @@ h3 {
         font-size: 1.4em;
         font-weight: 400;
         color: black;
-        background-color: rgba(255, 255, 255,0.5);
+        background-color: rgb(255, 255, 255);
         padding: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
-        border: 2px #7fbff6 solid;
+        border: 3px #7fbff6 solid;
         border-radius: 10px;
         margin-top: 5rem;
         margin-bottom: 5rem;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        list-style-type: none;
       }
 
       #background p {
@@ -114,7 +113,7 @@ h3 {
       }
 
 .row {
-  border-bottom: 2px #7fbff6 solid;
+  border-bottom: 3px #7fbff6 solid;
 }
 
 .content {
@@ -125,6 +124,10 @@ h3 {
         font-weight: 1500;
         padding: 0.5rem;
       }
+
+#clients img{
+  width: 7em;
+}
 
 #footer {
   background: white;
@@ -248,7 +251,7 @@ and (max-width : 640px) {
 
   .intro-list {
     margin-top: 0px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 0px !important;
   }
 
   .intro-list li {

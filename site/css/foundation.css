@@ -1429,13 +1429,13 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #90959b;
+    background: black;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #90959b;
+    background: black;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #90959b;
+      background: black;
       color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -1570,7 +1570,7 @@ right: 0;}
       padding: 0 15px;
       line-height: 75px;
       font-size: 1em;
-      color: #90959b;
+      color: black;
       background: white;}
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #7fbff6;

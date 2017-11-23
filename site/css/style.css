@@ -252,11 +252,12 @@ and (max-width : 640px) {
 
   #oil-change, #documentation, #linting {
     padding-top: 0px;
+
   }
 
   .intro-list {
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 60px !important;
   }
 
   .intro-list li {
@@ -272,13 +273,17 @@ and (max-width : 640px) {
   .row {
     border-bottom: 0.7px #7fbff6 solid;
     padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0px !important;
   }
 
   #background ul {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 30px;
+  }
+
+  #clients {
+    margin-bottom: 60px !important;
   }
 
   .contact {
